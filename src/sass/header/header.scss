@@ -1,0 +1,78 @@
+@import '../settings/vars.scss';
+
+.header{
+  //background: #76d6cd;#7ca6e6;#0c2f51;
+  background: #212f45;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.logo{
+  grid-column: 2;
+  grid-row: 1;
+  height: 30px;
+  align-self: end;
+  justify-self: center;
+  width: 30px;
+}
+
+.name{
+  align-self: end;
+  color: $white;
+  font-family: $title-font;
+  font-size: 18px;
+}
+.career{
+  align-self: center;
+  color: $white;
+  font-family: $title-font;
+  font-size: 22px;
+  font-weight: bold;
+  grid-column: 2;
+  grid-row: 3;
+  letter-spacing: 5px;
+  padding: 3px;
+}
+.nav{
+  align-self: end; 
+  grid-column: 3;
+  grid-row: 3;
+  justify-self: center;    
+}
+
+.nav_items{
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $regular-font;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  z-index: 1;
+  &:hover:after{
+      z-index: 1;
+      position: absolute;
+      content: '';
+      top: 30px;
+      display: block;
+      width: 100%;
+     // background: $color-contrast;
+      height: 3px;
+  }
+  @media (min-width:768px) {
+     margin: 0 10px;
+  }
+}
+
+li{
+  color:white;
+}
+
+
+.nav_items a {
+  color: white;
+}

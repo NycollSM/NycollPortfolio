@@ -1,0 +1,50 @@
+@import '../settings/vars.scss';
+
+.skills{
+  @media (min-width: 768px){
+      margin: 0 auto;
+      max-width: 1400px;
+      padding: 70px 0;
+      text-align: center;
+  }
+}
+
+.main--title-skills{
+  font-size: 5.3rem;
+  letter-spacing: 0.5rem;
+  padding: 10px 0;
+}
+
+.wrapper-skills{
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  @media (min-width: 768px){
+  display: flex;
+  }
+}
+
+.wrapper-item > ul {
+  margin: 5px 0 5px 28px;
+  text-align: initial;
+}
+.wrapper-item >ul > li{
+  padding: 0.4rem;
+  list-style-image: url(../../images/cherries.png); 
+}
+.titles-skills{
+  background: $color-contrast;
+  padding: 1rem;
+
+}
+
+.wrapper-item{
+  border: 1px solid $color-contrast;
+  height: 250px;
+  padding: 5px; 
+  margin: 20px;
+  text-align: center;
+  
+}
+

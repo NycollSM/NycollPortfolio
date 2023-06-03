@@ -1,0 +1,36 @@
+@import '../settings/vars.scss';
+
+#contact {
+  text-align: center;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.links{
+  margin: 0 2px;
+  display: inline;
+  background: $color-contrast;
+  height: 50px;
+  border-radius: 4px;
+  width: 50px;
+  padding: 10px;
+  &:hover{
+      background: $global-color;
+      transition: 1s;   
+  }
+}
+
+.links > img{
+  height: 50px;
+  width: 50px;
+}
+
+.link--footer{
+  background: $color-contrast;
+  padding: 3rem 0;
+  margin: 0 auto;
+}
+
+.contact{
+  color: $global-color ;
+}

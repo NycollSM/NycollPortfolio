@@ -1,0 +1,67 @@
+@import '../settings/vars.scss';
+
+.color--container{
+  width: 100%;
+  background-color: #dbdbdb;//#d9dbd9
+}
+.design--projects{
+  display: grid;
+  grid-gap: 0.8rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1100px;
+}
+.title-design{
+  grid-column: 1/ span 2;
+  font-size: $txt-x-huge;
+  letter-spacing: 0.5rem;
+  padding: 10px 0;
+}
+.mockups-img{
+  grid-column: 1/span 2;
+  justify-self: center;
+}
+
+.titledesign--item{
+  font-size: $txt-huge;
+  letter-spacing: 0.5rem;
+  padding: 20px;
+
+}
+
+.projects{
+  background-color: $white;
+  padding: 1rem;
+}
+
+.projects img {
+  height: 440px;
+  width: 100%;
+}
+
+.description{
+  padding: 1rem;
+}
+
+.link-project{
+  text-decoration: revert;
+  color: grey;
+}
+
+// bootstrap button 
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #fefae0;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #fefae0;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #fefae0;
+  --bs-btn-hover-border-color: #{shade-color(#000000, 100%)};
+  --bs-btn-focus-shadow-rgb: var(--bs-btn-hover-bg);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color(#fefae0, 20%)};
+  --bs-btn-active-border-color: #{shade-color(#000000, 100%)};
+}
