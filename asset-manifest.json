@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/nycollportfolio/static/css/main.48139c07.css",
+    "main.js": "/nycollportfolio/static/js/main.cf234d86.js",
+    "static/js/787.d34110a0.chunk.js": "/nycollportfolio/static/js/787.d34110a0.chunk.js",
+    "static/media/subjectline-mk.png": "/nycollportfolio/static/media/subjectline-mk.1eacb16b8859978a3288.png",
+    "static/media/dr-lookup-mk.png": "/nycollportfolio/static/media/dr-lookup-mk.9a7db0d30b18afe13510.png",
+    "static/media/Reports-mk.png": "/nycollportfolio/static/media/Reports-mk.1604c7f0cc0f50a341a7.png",
+    "static/media/Dashboard-mk.png": "/nycollportfolio/static/media/Dashboard-mk.9e87dda17bd49d348e08.png",
+    "static/media/DalCR.png": "/nycollportfolio/static/media/DalCR.3017ff352e183e2f73ee.png",
+    "static/media/proxy2.PNG": "/nycollportfolio/static/media/proxy2.0d7f09991ada560adc61.PNG",
+    "static/media/coffee-shop-mockup.png": "/nycollportfolio/static/media/coffee-shop-mockup.7614803981ebffb463da.png",
+    "static/media/Ecommerce.png": "/nycollportfolio/static/media/Ecommerce.b3d5c8a65aacd71c5a6f.png",
+    "static/media/dogegram-mockup.jpg": "/nycollportfolio/static/media/dogegram-mockup.1f23835f90d86adeb530.jpg",
+    "static/media/municipalidad.jpg": "/nycollportfolio/static/media/municipalidad.218567f76c12c698a27b.jpg",
+    "static/media/mockup.jpg": "/nycollportfolio/static/media/mockup.2cfc318505c113b0edae.jpg",
+    "static/media/about4.jpg": "/nycollportfolio/static/media/about4.beb870307ff7dea5b101.jpg",
+    "static/media/camaleon.jpg": "/nycollportfolio/static/media/camaleon.1947e82c4ea0e507fb4e.jpg",
+    "static/media/about3.jpg": "/nycollportfolio/static/media/about3.de0d7d5c5b87a5258326.jpg",
+    "static/media/cherry.png": "/nycollportfolio/static/media/cherry.36403d25f230ddede812.png",
+    "static/media/E-commerce.jpg": "/nycollportfolio/static/media/E-commerce.d745e871b3dcc5e49c4c.jpg",
+    "static/media/trivias.PNG": "/nycollportfolio/static/media/trivias.5e6206e0485486d7eccc.PNG",
+    "index.html": "/nycollportfolio/index.html",
+    "main.48139c07.css.map": "/nycollportfolio/static/css/main.48139c07.css.map",
+    "main.cf234d86.js.map": "/nycollportfolio/static/js/main.cf234d86.js.map",
+    "787.d34110a0.chunk.js.map": "/nycollportfolio/static/js/787.d34110a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48139c07.css",
+    "static/js/main.cf234d86.js"
+  ]
+}
